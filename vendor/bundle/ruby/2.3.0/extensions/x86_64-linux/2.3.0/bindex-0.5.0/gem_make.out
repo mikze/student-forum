@@ -1,0 +1,15 @@
+current directory: /home/mikze/Documents/rails/student-forum/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+/usr/bin/ruby2.3 -r ./siteconf20171023-7814-1d39aq8.rb extconf.rb
+creating Makefile
+
+current directory: /home/mikze/Documents/rails/student-forum/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/mikze/Documents/rails/student-forum/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/mikze/Documents/rails/student-forum/vendor/bundle/ruby/2.3.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20171023-7814-a33qoi/bindex
