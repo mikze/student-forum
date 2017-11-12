@@ -8,10 +8,20 @@ cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 </p>
 <ul>
+  STUDENTS:
 <% @students.each do |student| %>
   <%= link_to student do %>
-    <li><%= student.name %> <%= student.index %></li>
+    <li><%= student.name %></li>
   <% end %>
 <% end %>
+
+TOPICS:
+<% Topic.all.each do |topic| %>
+    <li>Topic title: <%= topic.title %></li>
+  created by: <%= @students.find(topic.student_id).name %>
+  </br>   POSTS IN TOPIC <%= topic.title %>:
+
+  <% end %>
+
 </ul>
 <%= Time.now %>
